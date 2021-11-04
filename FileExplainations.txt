@@ -1,0 +1,4 @@
+// Misc. files
+.env : This file is used to change the browser when using npm start
+config-overrides.js: This was used when trying to get Framer Motion to work but learned that the version for it was broken so it 
+		     may be of no use.

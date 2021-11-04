@@ -1,0 +1,206 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+#contactBody {
+  //! Top
+  #contactTopMain {
+    padding-bottom: 100px !important;
+
+    .contact-top-bg {
+      height: 340px;
+      width: 100%;
+      @include backgroundSetup();
+    }
+  }
+
+  //! Sides
+  #contactSidesMain {
+    padding-bottom: 60px !important;
+
+    .contact-sides-main-box {
+      max-width: 1500px;
+      margin: auto !important;
+      .contact-sides-main-row {
+        .contact-sides-main-side {
+          height: 960px;
+          justify-content: center;
+
+          .contact-sides-main-side-cnt {
+            width: 100%;
+
+            .contact-sides-main-side-cnt-inner {
+              width: 100%;
+
+              h3 {
+                font-family: $R;
+                font-weight: $RBold;
+                font-size: clamp(3rem, 3vw, 3rem);
+                color: $AlizarinCrimson;
+                padding-bottom: 20px !important;
+              }
+
+              .teammates-holder {
+                width: 100%;
+                max-width: 70%;
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                justify-content: space-between;
+                .teammate-item {
+                  margin-left: 0 !important;
+                  margin-top: 50px !important;
+                  margin-bottom: 50px !important;
+                  display: block;
+                  text-align: center;
+
+                  &:last-child {
+                    .teammate-img-holder {
+                      .teammate-img {
+                        background-position: top;
+                      }
+                    }
+                  }
+
+                  .teammate-img-holder {
+                    width: 100%;
+                    position: relative;
+                    margin-bottom: 40px !important;
+
+                    &:hover {
+                      .teammate-socials-ol {
+                        opacity: 1;
+                      }
+                    }
+
+                    .teammate-img {
+                      width: 240px;
+                      height: 220px;
+                      @include backgroundSetup;
+                      border-radius: 50%;
+                      position: relative;
+                    }
+
+                    .teammate-socials-ol {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 240px;
+                      height: 220px;
+                      border-radius: 50%;
+                      background-color: rgba(0, 0, 0, 0.8);
+                      opacity: 0;
+                      display: grid;
+                      place-items: center;
+                      color: white;
+
+                      div {
+                        display: block;
+                        max-width: 30px;
+                        white-space: pre-wrap;
+                        .fa-icon {
+                          font-size: 25px;
+                          margin-top: 10px !important;
+                          margin-bottom: 10px !important;
+                          cursor: pointer;
+                          transition: 0.3s ease-in-out;
+
+                          &:hover {
+                            opacity: 0.7;
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .teammate-item-info {
+                    h6 {
+                      font-family: $R;
+                      font-size: 15px;
+                    }
+                  }
+                }
+              }
+
+              form {
+                display: block;
+
+                .contact-form-set-holder {
+                  display: block;
+                  width: 100%;
+
+                  &:first-child {
+                    display: flex;
+                    justify-content: flex-start;
+
+                    .contact-form-set {
+                      margin-left: 50px !important;
+                      width: 50%;
+
+                      &:first-child {
+                        margin-left: 0 !important;
+                      }
+                    }
+                  }
+
+                  &:nth-child(even) {
+                    margin-top: 30px !important;
+                    margin-bottom: 30px !important;
+                  }
+
+                  .contact-form-set {
+                    display: block;
+
+                    h4 {
+                      font-size: 26px;
+                      font-family: $R;
+                      font-size: 20px;
+                    }
+
+                    input,
+                    textarea {
+                      font-family: $MW;
+                      background-color: ghostwhite;
+                      width: 100%;
+                      padding: 10px !important;
+                    }
+
+                    textarea {
+                      resize: none !important;
+                      height: 200px;
+                    }
+                  }
+                }
+
+                .contact-form-btns-holder {
+                  display: flex;
+                  justify-content: flex-end;
+                  width: 100%;
+                  padding-top: 30px !important;
+
+                  button {
+                    max-width: 110px;
+                    width: 100%;
+                    background-color: $AlizarinCrimson;
+                    color: white;
+                    font-family: $MW;
+                    font-weight: $MWReg;
+                    display: block;
+                    font-size: 19px;
+                    padding: 10px !important;
+
+                    &:hover {
+                      background-color: $Pomegranate;
+                    }
+                    &:first-child {
+                      margin-right: 30px !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+//! Globals
+@mixin backgroundSetup() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+//! Index
+@mixin indexTopSlideCnt() {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0.03;
+}
+
+//! Footer
+@mixin footerSideSetup() {
+  height: 400px;
+  display: grid;
+  place-items: center;
+}

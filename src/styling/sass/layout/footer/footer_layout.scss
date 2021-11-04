@@ -1,0 +1,198 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+//! Footer
+#footerMain {
+  background-color: $OuterSpace;
+  padding: 20px !important;
+  z-index: 100;
+  position: relative;
+
+  .footer-box {
+    max-width: 1900px;
+    margin: auto !important;
+
+    .footer-row {
+      .footer-side {
+        @include footerSideSetup();
+        .footer-side-cnt {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      #footerL {
+        justify-content: flex-start;
+        .footer-side-cnt {
+          .footer-logo-holder {
+            #footerLogo {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+
+              img {
+                max-width: 50px;
+              }
+
+              h2 {
+                font-family: $R;
+                font-weight: $RBold;
+                display: flex;
+                font-size: clamp(3rem, 4vw, 4rem);
+                color: white;
+                position: relative;
+
+                .fa-icon {
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0;
+                  right: -10px;
+                }
+              }
+            }
+          }
+          .footer-copyright {
+            padding-top: 10px !important;
+            span {
+              color: white;
+              opacity: 0.7;
+              font-family: $MW;
+              font-weight: $MWReg;
+              font-size: 12px;
+            }
+          }
+          .footer-newsletter-holder {
+            display: block;
+            padding-top: 50px !important;
+
+            h6 {
+              font-family: $MW;
+              color: white;
+              opacity: 0.7;
+              padding-bottom: 10px !important;
+            }
+
+            div {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              max-width: 75%;
+
+              input {
+                width: 90%;
+                padding: 5px !important;
+              }
+
+              button {
+                padding: 5px !important;
+                margin-left: 10px !important;
+                background-color: $AlizarinCrimson;
+                color: white;
+                display: grid;
+                place-items: center;
+                height: 37px;
+                width: 40px;
+              }
+            }
+          }
+        }
+      }
+
+      #footerM {
+        display: flex !important;
+        justify-content: center;
+        .footer-side-cnt {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .footer-side-links-set-holder {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .footer-links-set {
+              max-width: 80%;
+              margin: auto !important;
+              text-align: center;
+
+              span {
+                color: white;
+                opacity: 0.8;
+                font-size: 25px;
+                font-family: $R;
+                font-weight: $RBold;
+              }
+
+              ul {
+                font-family: $MW;
+                font-weight: $MWReg;
+                color: white;
+
+                li {
+                  margin-top: 10px !important;
+                  margin-bottom: 10px !important;
+                  cursor: pointer;
+                  text-transform: uppercase;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #footerR {
+        justify-content: flex-end;
+
+        .footer-side-cnt {
+          width: 100%;
+          .footer-contact-support-links-set-holder {
+            display: block;
+            text-align: right;
+
+            .footer-contact-support-links-set {
+              display: block;
+              margin-top: 50px !important;
+
+              span {
+                color: white;
+                opacity: 0.8;
+                font-size: 25px;
+                font-family: $R;
+                font-weight: $RBold;
+                display: block;
+                padding-bottom: 4px !important;
+              }
+
+              ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                font-size: 18px;
+
+                li {
+                  cursor: pointer;
+                }
+              }
+
+              div {
+                display: block;
+                font-family: $MW;
+                color: white;
+
+                p {
+                  margin-bottom: 10px !important;
+                  font-size: 18px;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

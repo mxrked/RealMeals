@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#fadedBottom {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, white));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 90%);
+  opacity: 0.9;
+  width: 100%;
+  height: 7em;
+}
+
+#backToTopBtn {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d72323;
+  z-index: 300;
+  color: white;
+  font-size: 24px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.253);
+}
+
+#pageFade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+}
+/*# sourceMappingURL=other_components.css.map */

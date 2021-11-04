@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#navMenuMain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(185, 185, 185, 0.945);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#navMenuMain .nav-menu-main-side {
+  width: 100%;
+  height: 100vh;
+}
+
+#navMenuMain .nav-menu-main-side:nth-child(1) {
+  position: relative;
+  max-width: 30%;
+  left: 0;
+}
+
+#navMenuMain .nav-menu-main-side:nth-child(2) {
+  max-width: 70%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuBG {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  -webkit-filter: drop-shadow(0 12px 3px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0 12px 3px rgba(0, 0, 0, 0.5));
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt {
+  width: 100%;
+  max-width: 70%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt #navCloser {
+  padding: 10px !important;
+  background-color: transparent;
+  color: #33425b;
+  font-family: "Raleway";
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 130px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder {
+  display: block;
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet {
+  display: block;
+  font-family: "Merriweather";
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  margin-right: auto !important;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a {
+  font-size: 23px;
+  color: #303841;
+  margin-bottom: 20px !important;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 50px !important;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet {
+  display: block;
+  font-family: "Merriweather";
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div {
+  display: block;
+  max-width: 400px;
+  margin-right: auto !important;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li {
+  margin-bottom: 10px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a {
+  font-size: 23px;
+  color: #303841;
+  position: relative;
+  display: inline-block;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet {
+  display: block;
+  font-family: "Merriweather";
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div {
+  display: -ms-grid;
+  display: grid;
+  max-width: 400px;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a {
+  font-size: 19px;
+  color: #303841;
+  margin-bottom: 20px !important;
+  position: relative;
+  display: inline-block;
+  max-width: 125px;
+  white-space: nowrap;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  max-width: 250px;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div ul li .fa-icon {
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  cursor: pointer;
+}
+/*# sourceMappingURL=nav_components.css.map */

@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#navigation .navigation-box {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 950;
+  max-width: 1700px;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: 100%;
+  margin: auto !important;
+}
+
+#navigation .navigation-box .navigation-row .navigation-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 190px;
+}
+
+#navigation .navigation-box .navigation-row .navigation-side .navigation-side-cnt {
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+}
+
+#navigation .navigation-box .navigation-row #navL {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo:hover img {
+  opacity: 1;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo:hover div {
+  opacity: 1;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo img {
+  max-width: 80px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo div {
+  padding-left: 20px !important;
+  text-align: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo div h1 {
+  font-family: "Raleway";
+  font-weight: 800;
+  color: ghostwhite;
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+
+#navigation .navigation-box .navigation-row #navL .navigation-side-cnt #navLogo div span {
+  font-family: "Merriweather";
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: ghostwhite;
+}
+
+#navigation .navigation-box .navigation-row #navR {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto !important;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set:nth-child(1) a {
+  color: ghostwhite;
+  opacity: 0.8;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set:nth-child(2) a {
+  color: ghostwhite;
+  opacity: 0.8;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set a {
+  padding: 10px !important;
+  font-size: 30px;
+  position: relative;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set a:hover {
+  opacity: 1;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set a .nav-cart-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set a .nav-cart-holder p {
+  font-size: 17px;
+  position: relative;
+  top: 20px;
+  background-color: #d72323;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button {
+  padding: 5px !important;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button:hover {
+  opacity: 1;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button:hover span:nth-child(odd) {
+  width: 25px;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button span {
+  width: 50px;
+  height: 6px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button span:nth-child(odd) {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#navigation .navigation-box .navigation-row #navR .navigation-side-cnt .nav-r-set button span:nth-child(even) {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+#otherPageNavHolder {
+  position: relative !important;
+  width: 100%;
+  background-color: #303841;
+}
+
+#otherPageNavHolder .navigation-box {
+  position: relative;
+  -webkit-transform: none;
+          transform: none;
+  left: 0;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#footerMain {
+  background-color: #303841;
+  padding: 20px !important;
+  z-index: 100;
+  position: relative;
+}
+
+#footerMain .footer-box {
+  max-width: 1900px;
+  margin: auto !important;
+}
+
+#footerMain .footer-box .footer-row .footer-side {
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#footerMain .footer-box .footer-row .footer-side .footer-side-cnt {
+  width: 100%;
+  max-width: 100%;
+}
+
+#footerMain .footer-box .footer-row #footerL {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-logo-holder #footerLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-logo-holder #footerLogo img {
+  max-width: 50px;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-logo-holder #footerLogo h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: white;
+  position: relative;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-logo-holder #footerLogo h2 .fa-icon {
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-copyright {
+  padding-top: 10px !important;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-copyright span {
+  color: white;
+  opacity: 0.7;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-newsletter-holder {
+  display: block;
+  padding-top: 50px !important;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-newsletter-holder h6 {
+  font-family: "Merriweather";
+  color: white;
+  opacity: 0.7;
+  padding-bottom: 10px !important;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-newsletter-holder div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 75%;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-newsletter-holder div input {
+  width: 90%;
+  padding: 5px !important;
+}
+
+#footerMain .footer-box .footer-row #footerL .footer-side-cnt .footer-newsletter-holder div button {
+  padding: 5px !important;
+  margin-left: 10px !important;
+  background-color: #d72323;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 37px;
+  width: 40px;
+}
+
+#footerMain .footer-box .footer-row #footerM {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt .footer-side-links-set-holder {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt .footer-side-links-set-holder .footer-links-set {
+  max-width: 80%;
+  margin: auto !important;
+  text-align: center;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt .footer-side-links-set-holder .footer-links-set span {
+  color: white;
+  opacity: 0.8;
+  font-size: 25px;
+  font-family: "Raleway";
+  font-weight: 800;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt .footer-side-links-set-holder .footer-links-set ul {
+  font-family: "Merriweather";
+  font-weight: 400;
+  color: white;
+}
+
+#footerMain .footer-box .footer-row #footerM .footer-side-cnt .footer-side-links-set-holder .footer-links-set ul li {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#footerMain .footer-box .footer-row #footerR {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt {
+  width: 100%;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder {
+  display: block;
+  text-align: right;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set {
+  display: block;
+  margin-top: 50px !important;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set span {
+  color: white;
+  opacity: 0.8;
+  font-size: 25px;
+  font-family: "Raleway";
+  font-weight: 800;
+  display: block;
+  padding-bottom: 4px !important;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set ul li {
+  cursor: pointer;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set div {
+  display: block;
+  font-family: "Merriweather";
+  color: white;
+}
+
+#footerMain .footer-box .footer-row #footerR .footer-side-cnt .footer-contact-support-links-set-holder .footer-contact-support-links-set div p {
+  margin-bottom: 10px !important;
+  font-size: 18px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=layout-dir.css.map */

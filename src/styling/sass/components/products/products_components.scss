@@ -1,0 +1,117 @@
+@import "../../abstracts/abstracts-dir.scss";
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+
+#productsBody {
+  //! Top
+  #productsTopMain {
+    .products-top-bg {
+      height: 340px;
+      width: 100%;
+      @include backgroundSetup();
+    }
+
+    .products-top-heading-holder {
+      padding-top: 70px !important;
+      padding-bottom: 80px !important;
+      h2 {
+        font-family: $R;
+        font-weight: $RBold;
+        font-size: clamp(3rem, 4vw, 4rem);
+        color: $AlizarinCrimson;
+        padding-bottom: 20px !important;
+        text-align: center;
+      }
+    }
+  }
+
+  //! Sects
+  .products-product-sect {
+    width: 100%;
+    margin-bottom: 100px !important;
+
+    .products-product-sect-cnt {
+      max-width: 1500px;
+      margin: auto !important;
+
+      .products-product-sect-top {
+        padding-bottom: 70px !important;
+        h4 {
+          font-family: $R;
+          font-size: clamp(2rem, 3vw, 3rem);
+          color: $OuterSpace;
+        }
+
+        p {
+          font-family: $MW;
+          font-weight: $MWReg;
+          font-size: 18px;
+          padding-top: 20px !important;
+        }
+      }
+
+      .products-product-sect-items-holder {
+        width: 100%;
+        .products-product-sect-items-box {
+          width: 100%;
+          .products-product-sect-items-row {
+            .products-product-sect-item {
+              height: 400px;
+              display: grid;
+              place-items: center;
+
+              .products-product-sect-item-cnt {
+                width: 100%;
+                max-width: 95%;
+                margin: auto !important;
+                text-align: center;
+
+                .products-product-sect-item-dynamic {
+                  .products-product-sect-item-bg {
+                    height: 150px;
+                    width: 100%;
+                    @include backgroundSetup;
+                  }
+
+                  .products-product-sect-item-info {
+                    height: 150px;
+                    display: grid;
+                    place-items: center;
+                    text-align: center;
+
+                    h3 {
+                      font-family: $R;
+                      font-weight: $RBold;
+                      font-size: 25px;
+                    }
+
+                    span {
+                      font-family: $MW;
+                      font-size: 20px;
+                      font-weight: $MWReg;
+                    }
+                  }
+                }
+
+                button {
+                  background-color: $AlizarinCrimson;
+                  color: white;
+                  font-size: 18px;
+                  font-family: $R;
+                  font-weight: $RBold;
+                  margin: auto !important;
+                  padding: 10px !important;
+                  transition: 0.3s ease-in-out;
+
+                  &:hover {
+                    background-color: $Pomegranate;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

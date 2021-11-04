@@ -1,0 +1,186 @@
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+@import "../../abstracts/abstracts-dir.scss";
+
+#searchBody {
+  //! Main
+  #searchMain {
+    .search-field-box {
+      @include backgroundSetup;
+      height: 70vh;
+      position: relative;
+      width: 100%;
+
+      .search-field-cnt {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: grid;
+        place-items: center;
+
+        .search-field-cnt-inner {
+          width: 100%;
+
+          h2 {
+            font-family: $R;
+            font-weight: $RBold;
+            font-size: clamp(3rem, 3.5vw, 3.5rem);
+            text-align: center;
+            color: white;
+            padding-bottom: 50px !important;
+          }
+
+          #searchBar {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+
+            .search-bar-holder {
+              max-width: 1400px;
+              margin: auto !important;
+              width: 100%;
+              background-color: ghostwhite;
+              padding: 10px !important;
+              display: flex;
+              justify-content: space-between;
+              border-radius: 5px;
+
+              input {
+                width: 100%;
+                max-width: 91%;
+                background-color: ghostwhite;
+                font-family: $R;
+                color: black;
+                padding: 15px !important;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+              }
+
+              button {
+                background-color: $AlizarinCrimson;
+                border-radius: 5px;
+                color: white;
+                font-size: 18px;
+                font-family: $R;
+                font-weight: $RBold;
+                margin: auto !important;
+                margin-right: 0 !important;
+                padding: 10px !important;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                  background-color: $Pomegranate;
+                }
+              }
+            }
+          }
+
+          .search-links-holder {
+            position: relative;
+            max-width: 1400px;
+            margin: auto !important;
+
+            ul {
+              position: absolute;
+              left: 0;
+              background-color: ghostwhite;
+              max-height: 150px;
+              width: 100%;
+              overflow: hidden;
+              overflow-y: auto;
+              white-space: nowrap;
+              top: 5px;
+              scrollbar-color: $AlizarinCrimson #c2d2e4;
+
+              &::-webkit-scrollbar {
+                width: 15px;
+              }
+              &::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+                width: 15px;
+                background-color: $AlizarinCrimson;
+              }
+
+              li {
+                a {
+                  height: 50px;
+                  display: flex;
+                  align-items: center;
+                  padding: 5px !important;
+                  padding-left: 10px !important;
+                  font-family: $R;
+                  font-weight: $RBold;
+                  color: black;
+
+                  &:hover {
+                    background-color: $AlizarinCrimson;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //! Bottom
+  #searchBottomMain {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+    .search-bottom-set {
+      width: 100%;
+      margin-top: 100px !important;
+      margin-bottom: 100px !important;
+
+      .search-bottom-set-cnt {
+        max-width: 1400px;
+        margin: auto !important;
+
+        h3 {
+          font-size: 35px;
+          font-family: $R;
+          color: $OuterSpace;
+          padding-bottom: 20px !important;
+        }
+
+        p {
+          font-family: $MW;
+          font-weight: $MWReg;
+          font-size: 17px;
+          max-width: 80%;
+        }
+
+        div {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          max-width: 80%;
+          padding-top: 40px !important;
+
+          a {
+            max-width: 130px;
+            width: 100%;
+            background-color: $AlizarinCrimson;
+            color: white;
+            font-family: $MW;
+            font-weight: $MWReg;
+            display: block;
+            font-size: 19px;
+            padding: 10px !important;
+
+            &:hover {
+              background-color: $Pomegranate;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+@media all and (max-width: 1995px) {
+  #contactBody #contactTopMain .contact-top-bg {
+    height: 280px;
+    background-position: 100% 20%;
+  }
+  #contactBody #contactSidesMain {
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+  }
+  #contactBody #contactSidesMain .contact-sides-main-box {
+    max-width: 90%;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder {
+    max-width: 76%;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item
+    .teammate-img-holder
+    .teammate-img,
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item
+    .teammate-img-holder
+    .teammate-socials-ol {
+    width: 170px;
+    height: 160px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media all and (max-width: 991px) {
+  #contactBody #contactTopMain .contact-top-bg {
+    height: 210px;
+    background-position: 100% 20%;
+  }
+  #contactBody #contactSidesMain {
+    padding-top: 0 !important;
+    padding-bottom: 60px !important;
+  }
+  #contactBody #contactSidesMain .contact-sides-main-box {
+    max-width: 85%;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side {
+    width: 100% !important;
+    max-width: 100%;
+    height: 100%;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side:first-child {
+    height: 500px;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder {
+    max-width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item {
+    margin: auto !important;
+    margin-top: 0 !important;
+    max-width: 200px;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item
+    .teammate-img-holder
+    .teammate-img,
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item
+    .teammate-img-holder
+    .teammate-socials-ol {
+    width: 140px;
+    height: 130px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 80px !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #contactBody #contactTopMain {
+    padding-bottom: 50px !important;
+  }
+  #contactBody #contactTopMain .contact-top-bg {
+    height: 110px;
+    background-position: 100% 20%;
+  }
+  #contactBody #contactSidesMain {
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side:first-child {
+    height: 100%;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side:last-child {
+    margin-bottom: 60px !important;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder {
+    display: block;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    .teammates-holder
+    .teammate-item {
+    margin-bottom: 70px !important;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    h3 {
+    padding-bottom: 50px !important;
+    font-size: 25px;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    form
+    .contact-form-btns-holder {
+    justify-content: space-evenly;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    form
+    .contact-form-set-holder
+    .contact-form-set
+    h4 {
+    font-size: 16px;
+  }
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    form
+    .contact-form-set-holder
+    .contact-form-set
+    input,
+  #contactBody
+    #contactSidesMain
+    .contact-sides-main-box
+    .contact-sides-main-row
+    .contact-sides-main-side
+    .contact-sides-main-side-cnt
+    .contact-sides-main-side-cnt-inner
+    form
+    .contact-form-set-holder
+    .contact-form-set
+    textarea {
+    font-size: 14px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

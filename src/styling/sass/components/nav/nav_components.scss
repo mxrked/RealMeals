@@ -1,0 +1,223 @@
+@import "../../base/base-dir.scss";
+@import "../../themes/themes-dir.scss";
+@import "../../abstracts/abstracts-dir.scss";
+
+//! Nav Menu
+#navMenuMain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(185, 185, 185, 0.945);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 1000;
+
+  .nav-menu-main-side {
+    width: 100%;
+    height: 100vh;
+
+    &:nth-child(1) {
+      position: relative;
+      max-width: 30%;
+      left: 0;
+    }
+
+    &:nth-child(2) {
+      max-width: 70%;
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    #navMenuBG {
+      width: 100%;
+      max-width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      //position: relative;
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: 2s ease-in-out;
+      filter: drop-shadow(0 12px 3px rgba(0, 0, 0, 0.5));
+    }
+
+    #navMenuMainCnt {
+      width: 100%;
+      max-width: 70%;
+
+      #navCloser {
+        padding: 10px !important;
+        background-color: transparent;
+        color: $PickledBluewood;
+        font-family: $R;
+        font-weight: $RBold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 130px;
+        width: 100%;
+        font-size: 20px;
+      }
+
+      .nav-menu-main-side-cnt-set-holder {
+        display: block;
+        width: 100%;
+
+        #generalSet {
+          display: block;
+          font-family: $MW;
+          position: relative;
+
+          h3 {
+            font-size: clamp(4rem, 4vw, 4rem);
+            font-weight: $MWBold;
+          }
+
+          div {
+            display: flex;
+            justify-content: space-between;
+            max-width: 700px;
+            margin-right: auto !important;
+            padding-top: 40px !important;
+
+            a {
+              font-size: 23px;
+              color: $OuterSpace;
+              margin-bottom: 20px !important;
+              position: relative;
+
+              &:hover {
+                span {
+                  max-width: 100%;
+                }
+              }
+
+              span {
+                width: 100%;
+                max-width: 0;
+                position: absolute;
+                height: 2px;
+                background-color: $PickledBluewood;
+              }
+            }
+          }
+        }
+
+        .bottom-set {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin-top: 50px !important;
+          position: relative;
+
+          #productsSet {
+            display: block;
+            font-family: $MW;
+            width: 100%;
+
+            h3 {
+              font-size: clamp(4rem, 4vw, 4rem);
+              font-weight: $MWBold;
+            }
+
+            div {
+              display: block;
+              max-width: 400px;
+              margin-right: auto !important;
+              padding-top: 40px !important;
+
+              ul {
+                li {
+                  margin-bottom: 10px !important;
+                  a {
+                    font-size: 23px;
+                    color: $OuterSpace;
+                    position: relative;
+                    display: inline-block;
+
+                    &:hover {
+                      span {
+                        max-width: 100%;
+                      }
+                    }
+
+                    span {
+                      width: 100%;
+                      max-width: 0;
+                      position: absolute;
+                      height: 2px;
+                      background-color: $PickledBluewood;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          #socialsSet {
+            display: block;
+            font-family: $MW;
+            width: 100%;
+
+            h3 {
+              font-size: clamp(4rem, 4vw, 4rem);
+              font-weight: $MWBold;
+            }
+
+            div {
+              display: grid;
+              max-width: 400px;
+              padding-top: 40px !important;
+
+              a {
+                font-size: 19px;
+                color: $OuterSpace;
+                margin-bottom: 20px !important;
+                position: relative;
+                display: inline-block;
+                max-width: 125px;
+                white-space: nowrap;
+
+                &:hover {
+                  span {
+                    max-width: 100%;
+                  }
+                }
+
+                span {
+                  width: 100%;
+                  max-width: 0;
+                  position: absolute;
+                  height: 2px;
+                  background-color: $PickledBluewood;
+                }
+              }
+
+              ul {
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                max-width: 250px;
+
+                li {
+                  .fa-icon {
+                    font-size: 24px;
+                    margin-bottom: 20px !important;
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

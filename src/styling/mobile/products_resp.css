@@ -1,0 +1,155 @@
+@media all and (max-width: 1995px) {
+  #productsBody #productsTopMain .products-top-bg {
+    height: 280px;
+  }
+  #productsBody #productsTopMain .products-top-heading-holder {
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #productsBody .products-product-sect .products-product-sect-cnt {
+    max-width: 85%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #productsBody #productsTopMain .products-top-bg {
+    height: 210px;
+  }
+  #productsBody #productsTopMain .products-top-heading-holder {
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-items-holder
+    .products-product-sect-items-box
+    .products-product-sect-items-row
+    .products-product-sect-item
+    .products-product-sect-item-cnt
+    .products-product-sect-item-dynamic
+    .products-product-sect-item-info {
+    height: 120px;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-items-holder
+    .products-product-sect-items-box
+    .products-product-sect-items-row
+    .products-product-sect-item
+    .products-product-sect-item-cnt
+    .products-product-sect-item-dynamic
+    .products-product-sect-item-info
+    h3 {
+    font-size: 24px;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-top
+    p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #productsBody #productsTopMain .products-top-bg {
+    height: 110px;
+  }
+  #productsBody #productsTopMain .products-top-heading-holder {
+    padding-top: 40px !important;
+    padding-bottom: 30px !important;
+  }
+  #productsBody #productsTopMain .products-top-heading-holder h2 {
+    font-size: 25px;
+  }
+  #productsBody .products-product-sect {
+    margin-bottom: 30px !important;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-top {
+    padding-bottom: 10px !important;
+    text-align: center;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-top
+    h4 {
+    font-size: 25px;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-top
+    p {
+    font-size: 14px;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-items-holder
+    .products-product-sect-items-box
+    .products-product-sect-items-row
+    .products-product-sect-item {
+    height: 100%;
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-items-holder
+    .products-product-sect-items-box
+    .products-product-sect-items-row
+    .products-product-sect-item
+    .products-product-sect-item-cnt
+    .products-product-sect-item-dynamic
+    .products-product-sect-item-info
+    div {
+    width: 100%;
+  }
+  #productsBody
+    .products-product-sect
+    .products-product-sect-cnt
+    .products-product-sect-items-holder
+    .products-product-sect-items-box
+    .products-product-sect-items-row
+    .products-product-sect-item
+    .products-product-sect-item-cnt
+    button {
+    font-size: 13px;
+    max-width: 110px;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #productsBody #productsTopMain .products-top-heading-holder h2 {
+    font-size: 35px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+}

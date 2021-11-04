@@ -1,0 +1,2796 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#navMenuMain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(185, 185, 185, 0.945);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#navMenuMain .nav-menu-main-side {
+  width: 100%;
+  height: 100vh;
+}
+
+#navMenuMain .nav-menu-main-side:nth-child(1) {
+  position: relative;
+  max-width: 30%;
+  left: 0;
+}
+
+#navMenuMain .nav-menu-main-side:nth-child(2) {
+  max-width: 70%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuBG {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+  -webkit-filter: drop-shadow(0 12px 3px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0 12px 3px rgba(0, 0, 0, 0.5));
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt {
+  width: 100%;
+  max-width: 70%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt #navCloser {
+  padding: 10px !important;
+  background-color: transparent;
+  color: #33425b;
+  font-family: "Raleway";
+  font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 130px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder {
+  display: block;
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet {
+  display: block;
+  font-family: "Merriweather";
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 700px;
+  margin-right: auto !important;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a {
+  font-size: 23px;
+  color: #303841;
+  margin-bottom: 20px !important;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder #generalSet div a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 50px !important;
+  position: relative;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet {
+  display: block;
+  font-family: "Merriweather";
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div {
+  display: block;
+  max-width: 400px;
+  margin-right: auto !important;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li {
+  margin-bottom: 10px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a {
+  font-size: 23px;
+  color: #303841;
+  position: relative;
+  display: inline-block;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #productsSet div ul li a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet {
+  display: block;
+  font-family: "Merriweather";
+  width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet h3 {
+  font-size: clamp(4rem, 4vw, 4rem);
+  font-weight: 700;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div {
+  display: -ms-grid;
+  display: grid;
+  max-width: 400px;
+  padding-top: 40px !important;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a {
+  font-size: 19px;
+  color: #303841;
+  margin-bottom: 20px !important;
+  position: relative;
+  display: inline-block;
+  max-width: 125px;
+  white-space: nowrap;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a:hover span {
+  max-width: 100%;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div a span {
+  width: 100%;
+  max-width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: #33425b;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  max-width: 250px;
+}
+
+#navMenuMain .nav-menu-main-side #navMenuMainCnt .nav-menu-main-side-cnt-set-holder .bottom-set #socialsSet div ul li .fa-icon {
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  cursor: pointer;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#indexBody #indexTop {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  max-width: 100%;
+  margin: auto !important;
+}
+
+#indexBody #indexTop .slick-slider {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+#indexBody #indexTop .slick-slider .slick-dots {
+  max-width: 200px;
+  bottom: 30px;
+  right: 50px;
+}
+
+#indexBody #indexTop .slick-slider .slick-dots .slick-active {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-filter: drop-shadow(0 2px 4px rgba(224, 222, 222, 0.185));
+          filter: drop-shadow(0 2px 4px rgba(224, 222, 222, 0.185));
+}
+
+#indexBody #indexTop .slick-slider .slick-dots li {
+  margin: 20px !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-dots li button {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border: 2px solid red !important;
+  border-radius: 50%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-dots li button::before {
+  content: "•";
+  width: 28px;
+  height: 28px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+#indexBody #indexTop .slick-slider .slick-track {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  height: 1200px;
+  position: relative;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide input {
+  position: absolute;
+  z-index: 400;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-video-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-video-holder video {
+  min-height: 100%;
+  min-width: 100%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner {
+  max-width: 91%;
+  width: 100%;
+  margin-left: auto !important;
+  padding-bottom: 150px !important;
+  color: white;
+  text-align: left;
+  -webkit-filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.322));
+          filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.322));
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(10rem, 11vw, 11rem);
+  line-height: 140px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  position: relative;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0.03;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 22px;
+  max-width: 700px;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  position: relative;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0.03;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 300px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  position: relative;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
+  opacity: 0.03;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner div a {
+  color: white;
+  padding: 10px !important;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner div a:nth-child(odd) {
+  background-color: #d72323;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-slide .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner div a:nth-child(even) {
+  background-color: #f33535;
+}
+
+#indexBody #indexTop .slick-slider .slick-track .slick-active .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner h2,
+#indexBody #indexTop .slick-slider .slick-track .slick-active .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner p,
+#indexBody #indexTop .slick-slider .slick-track .slick-active .index-top-slide .index-top-slide-cnt .index-top-slide-cnt-inner div {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+  opacity: 1;
+}
+
+#indexBody #indexCategories {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#indexBody #indexCategories .index-categories-box {
+  max-width: 80%;
+  margin: auto !important;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side {
+  height: 700px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt {
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-side-cnt-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-side-cnt-item:hover .index-categories-side-cnt-item-text {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-side-cnt-item .index-categories-side-cnt-item-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 50px !important;
+  padding-left: 30px !important;
+  font-family: "Raleway";
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-side-cnt-item .index-categories-side-cnt-item-text span {
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: white;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-R-item {
+  height: 200px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-R-item:nth-child(even) {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-R-item:hover .index-categories-R-item-text {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-R-item .index-categories-R-item-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.322);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 20px !important;
+  padding-left: 30px !important;
+  font-family: "Raleway";
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#indexBody #indexCategories .index-categories-box .index-categories-row .index-categories-side .index-categories-side-cnt .index-categories-R-item .index-categories-R-item-text span {
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: white;
+}
+
+#indexBody #indexProducts {
+  padding-top: 100px !important;
+  padding-bottom: 140px !important;
+}
+
+#indexBody #indexProducts .index-products-box {
+  margin: auto !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-top {
+  text-align: center;
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-top .index-products-top-cnt h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-top .index-products-top-cnt p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  max-width: 600px;
+  margin: auto !important;
+  padding-bottom: 30px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-top .index-products-top-cnt a {
+  max-width: 130px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 19px;
+  padding: 10px !important;
+  margin: auto !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-top .index-products-top-cnt a:hover {
+  background-color: #f33535;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items {
+  max-width: 1700px;
+  margin: auto !important;
+  padding-top: 80px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .index-products-cb-holder {
+  position: relative;
+  top: 120px;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .index-products-cb-holder div {
+  width: 40px;
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: auto !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 40px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .index-products-cb-holder #iProductsAutoPlayCB {
+  width: 40px;
+  height: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: auto !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #d72323;
+  color: white;
+  font-size: 25px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-dots {
+  bottom: -70px;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-dots li {
+  margin: 10px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-dots li button::before {
+  font-size: 20px;
+  color: #d72323;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-prev {
+  left: 5% !important;
+  z-index: 1;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-prev::before {
+  color: red;
+  font-size: 40px;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-next {
+  right: 5% !important;
+  z-index: 1;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-next::before {
+  color: red;
+  font-size: 40px;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list {
+  margin: auto !important;
+  max-width: 1200px;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide {
+  max-width: 95%;
+  background-color: ghostwhite;
+  height: 400px;
+  margin: auto !important;
+  position: relative;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-img-holder {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  background-color: grey;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-img-holder div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: ghostwhite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder {
+  height: 250px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt {
+  width: 100%;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-description {
+  display: block;
+  text-align: center;
+  padding-bottom: 40px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-description h3 {
+  font-size: 35px;
+  font-family: "Raleway";
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-description span {
+  font-family: "Merriweather";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: auto !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder .index-product-quantity-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 20%;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder .index-product-quantity-main p {
+  font-family: "Merriweather";
+  padding: 7px !important;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder .index-product-quantity-main input {
+  max-width: 80px;
+  text-align: center;
+  font-family: "Merriweather";
+  border-radius: 10px;
+  font-size: 18px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.103);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.103);
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder button {
+  background-color: #d72323;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 800;
+  padding: 10px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .index-products-items-slide .index-product-info-holder .index-product-info-cnt .index-product-purchase-holder button:hover {
+  background-color: #f33535;
+}
+
+#indexBody #indexProducts .index-products-box .index-products-items .slick-list .slick-track .slick-active .index-products-items-slide {
+  opacity: 1;
+}
+
+#indexBody #indexInfo {
+  padding-top: 100px !important;
+  padding-bottom: 160px !important;
+}
+
+#indexBody #indexInfo .index-info-box {
+  max-width: 1250px;
+  margin: auto !important;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row .index-info-side {
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoL .index-info-side-cnt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoL .index-info-side-cnt .index-info-bg {
+  height: 590px;
+  width: 45%;
+  position: relative;
+  background-color: ghostwhite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoL .index-info-side-cnt .index-info-bg:nth-child(even) {
+  top: 60px;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+  padding-top: 50px !important;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt {
+  max-width: 700px;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+  line-height: 50px;
+  max-width: 60%;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt p {
+  font-family: "Merriweather";
+  font-size: 18px;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 250px;
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt div a {
+  color: white;
+  padding: 10px !important;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #d72323;
+}
+
+#indexBody #indexInfo .index-info-box .index-info-row #indexInfoR .index-info-side-cnt div a:hover {
+  background-color: #f33535;
+}
+
+#indexBody #indexBenefits {
+  padding-top: 200px !important;
+  padding-bottom: 250px !important;
+}
+
+#indexBody #indexBenefits .index-benefits-top {
+  max-width: 1550px;
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: auto !important;
+  text-align: center;
+}
+
+#indexBody #indexBenefits .index-benefits-top .index-benefits-top-cnt h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+  line-height: 50px;
+}
+
+#indexBody #indexBenefits .index-benefits-top .index-benefits-top-cnt p {
+  font-family: "Merriweather";
+  font-size: 18px;
+  padding-top: 10px !important;
+  padding-bottom: 30px !important;
+  max-width: 550px;
+  margin: auto !important;
+}
+
+#indexBody #indexBenefits .index-benefits-top .index-benefits-top-cnt a {
+  color: white;
+  padding: 10px !important;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #d72323;
+}
+
+#indexBody #indexBenefits .index-benefits-top .index-benefits-top-cnt a:hover {
+  background-color: #f33535;
+}
+
+#indexBody #indexBenefits .index-benefits-box {
+  max-width: 1550px;
+  margin: auto !important;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side {
+  height: 550px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side #iBL,
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side #iBR {
+  top: 50px;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt {
+  position: relative;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt:hover .index-benefits-blob-holder div {
+  opacity: 0.8;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt:hover .index-benefits-main-cnt img {
+  top: -2px;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt:hover .index-benefits-main-cnt .index-benefits-main-cnt-text {
+  opacity: 1;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-blob-holder {
+  position: relative;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-blob-holder:nth-child(even) div {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-blob-holder div {
+  width: 360px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 42%;
+  -webkit-transform: translate(-42%, 0);
+          transform: translate(-42%, 0);
+  opacity: 0.6;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt {
+  position: relative;
+  z-index: 100;
+  padding-top: 120px !important;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt img {
+  max-width: 210px;
+  display: block;
+  margin: auto !important;
+  -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.294));
+          filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.294));
+  position: relative;
+  top: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt .index-benefits-main-cnt-text {
+  padding-top: 40px !important;
+  text-align: center;
+  max-width: 450px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt .index-benefits-main-cnt-text h4 {
+  font-size: 36px;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: #d72323;
+  line-height: 47px;
+  padding-bottom: 20px !important;
+  text-transform: capitalize;
+  margin: auto !important;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt .index-benefits-main-cnt-text p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 17px;
+  max-width: 400px;
+  padding-bottom: 25px !important;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt .index-benefits-main-cnt-text a {
+  color: white;
+  padding: 10px !important;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #d72323;
+}
+
+#indexBody #indexBenefits .index-benefits-box .index-benefits-row .index-benefits-side .index-benefits-cnt .index-benefits-main-cnt .index-benefits-main-cnt-text a:hover {
+  background-color: #f33535;
+}
+
+#indexBody #indexContact {
+  height: 100%;
+  padding-top: 10px !important;
+  padding-bottom: 110px !important;
+}
+
+#indexBody #indexContact .index-contact-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto !important;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-border {
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  border-radius: 13px;
+}
+
+#indexBody #indexContact .index-contact-box #indexCBTR {
+  top: -18px;
+  right: 0;
+  border-top: 9px solid #d72323;
+  border-right: 9px solid #d72323;
+}
+
+#indexBody #indexContact .index-contact-box #indexCBBL {
+  bottom: -18px;
+  left: 0;
+  border-bottom: 9px solid #d72323;
+  border-left: 9px solid #d72323;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt {
+  width: 100%;
+  max-width: 97%;
+  margin: auto !important;
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.622);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay div {
+  color: white;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay div h4 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 3vw, 3rem);
+  padding-bottom: 20px !important;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay div a {
+  color: white;
+  padding: 10px !important;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #d72323;
+}
+
+#indexBody #indexContact .index-contact-box .index-contact-box-cnt .index-contact-box-cnt-overlay div a:hover {
+  background-color: #f33535;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#aboutBody #aboutTopMain {
+  padding-bottom: 40px !important;
+}
+
+#aboutBody #aboutTopMain .about-top-bg {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aboutBody #aboutTopMain .about-top-text {
+  width: 100%;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#aboutBody #aboutTopMain .about-top-text div {
+  max-width: 1400px;
+  margin: auto !important;
+  text-align: center;
+}
+
+#aboutBody #aboutTopMain .about-top-text div h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+}
+
+#aboutBody #aboutTopMain .about-top-text div p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px !important;
+  max-width: 1000px;
+}
+
+#aboutBody #aboutSectsMain {
+  padding-bottom: 200px !important;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box {
+  max-width: 1300px;
+  margin: auto !important;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-bg {
+  width: 100%;
+  max-width: 40%;
+  height: 480px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-bg:nth-child(even) {
+  margin-top: 50px !important;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-side-text {
+  max-width: 610px;
+  margin: auto !important;
+  margin-right: 0 !important;
+  text-align: right;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-side-text h3 {
+  font-family: "Raleway";
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #303841;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-side-text p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-side-text a {
+  background-color: #d72323;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 800;
+  margin: auto !important;
+  padding: 10px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side .about-sect-side-cnt .about-sect-side-text a:hover {
+  background-color: #f33535;
+}
+
+#aboutBody #aboutSectsMain #aboutSectM {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+#aboutBody #aboutSectsMain #aboutSectM .about-sect-side-text {
+  text-align: left;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#productsBody #productsTopMain .products-top-bg {
+  height: 340px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#productsBody #productsTopMain .products-top-heading-holder {
+  padding-top: 70px !important;
+  padding-bottom: 80px !important;
+}
+
+#productsBody #productsTopMain .products-top-heading-holder h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+#productsBody .products-product-sect {
+  width: 100%;
+  margin-bottom: 100px !important;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt {
+  max-width: 1500px;
+  margin: auto !important;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-top {
+  padding-bottom: 70px !important;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-top h4 {
+  font-family: "Raleway";
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #303841;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-top p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px !important;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder {
+  width: 100%;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box {
+  width: 100%;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item {
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt {
+  width: 100%;
+  max-width: 95%;
+  margin: auto !important;
+  text-align: center;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt .products-product-sect-item-dynamic .products-product-sect-item-bg {
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt .products-product-sect-item-dynamic .products-product-sect-item-info {
+  height: 150px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt .products-product-sect-item-dynamic .products-product-sect-item-info h3 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 25px;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt .products-product-sect-item-dynamic .products-product-sect-item-info span {
+  font-family: "Merriweather";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt button {
+  background-color: #d72323;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 800;
+  margin: auto !important;
+  padding: 10px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#productsBody .products-product-sect .products-product-sect-cnt .products-product-sect-items-holder .products-product-sect-items-box .products-product-sect-items-row .products-product-sect-item .products-product-sect-item-cnt button:hover {
+  background-color: #f33535;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#contactBody #contactTopMain {
+  padding-bottom: 100px !important;
+}
+
+#contactBody #contactTopMain .contact-top-bg {
+  height: 340px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contactBody #contactSidesMain {
+  padding-bottom: 60px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box {
+  max-width: 1500px;
+  margin: auto !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side {
+  height: 960px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt {
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner {
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner h3 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 3vw, 3rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder {
+  width: 100%;
+  max-width: 70%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item {
+  margin-left: 0 !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  display: block;
+  text-align: center;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item:last-child .teammate-img-holder .teammate-img {
+  background-position: top;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder:hover .teammate-socials-ol {
+  opacity: 1;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-img {
+  width: 240px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div {
+  display: block;
+  max-width: 30px;
+  white-space: pre-wrap;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div .fa-icon {
+  font-size: 25px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div .fa-icon:hover {
+  opacity: 0.7;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-item-info h6 {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form {
+  display: block;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder {
+  display: block;
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child .contact-form-set {
+  margin-left: 50px !important;
+  width: 50%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child .contact-form-set:first-child {
+  margin-left: 0 !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:nth-child(even) {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set {
+  display: block;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set h4 {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set input,
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set textarea {
+  font-family: "Merriweather";
+  background-color: ghostwhite;
+  width: 100%;
+  padding: 10px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set textarea {
+  resize: none !important;
+  height: 200px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding-top: 30px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button {
+  max-width: 110px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 19px;
+  padding: 10px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button:hover {
+  background-color: #f33535;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button:first-child {
+  margin-right: 30px !important;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#cartBody #cartTop {
+  max-width: 1500px;
+  margin: auto !important;
+  padding: 30px !important;
+  padding-top: 150px !important;
+  padding-bottom: 60px !important;
+}
+
+#cartBody #cartTop h2 {
+  font-family: "Raleway";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #d72323;
+  font-weight: 800;
+  font-size: clamp(3rem, 4vw, 4rem);
+  padding-bottom: 20px !important;
+}
+
+#cartBody #cartTop h2 .fa-icon {
+  margin-right: 20px !important;
+  color: rgba(19, 19, 19, 0.89);
+}
+
+#cartBody #cartTop p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 19px;
+  max-width: 900px;
+  margin: auto !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  padding-bottom: 30px !important;
+}
+
+#cartBody #cartHeadings {
+  max-width: 1500px;
+  margin: auto !important;
+  padding: 30px !important;
+  padding-top: 70px !important;
+  padding-bottom: 30px !important;
+}
+
+#cartBody #cartHeadings .cart-headings-box .cart-headings-row .cart-heading {
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartBody #cartInner {
+  padding: 10px !important;
+  padding-bottom: 50px !important;
+}
+
+#cartBody #cartInner #cartItems {
+  background-color: ghostwhite;
+  max-width: 1500px;
+  margin: auto !important;
+  padding: 30px !important;
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  scrollbar-color: #d72323 #c2d2e4;
+}
+
+#cartBody #cartInner #cartItems::-webkit-scrollbar {
+  width: 15px;
+}
+
+#cartBody #cartInner #cartItems::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 15px;
+  background-color: #d72323;
+}
+
+#cartBody #cartInner #cartItems .cart-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side {
+  max-width: 25%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .product-img {
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 20px !important;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .product-name {
+  font-family: "Raleway";
+  font-size: 20px;
+  max-width: 40%;
+  line-height: normal;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .price {
+  font-family: "Merriweather";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .price::before {
+  content: "$";
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .quantity-ipt {
+  text-align: center;
+  width: 40%;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.171);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.171);
+  border-radius: 10px;
+  font-family: "Raleway";
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .quantity-ipt::-webkit-inner-spin-button, #cartBody #cartInner #cartItems .cart-item .cart-item-side .quantity-ipt::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+#cartBody #cartInner #cartItems .cart-item .cart-item-side .cart-item-remover {
+  background-color: #d72323;
+  color: white !important;
+  width: 40px;
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 30px;
+  place-items: center;
+}
+
+#cartBody #cartInner #cartItems .cart-item .remover-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 200px;
+  margin: auto !important;
+}
+
+#cartBody #cartBottom .cart-bottom-box {
+  max-width: 1500px;
+  width: 100%;
+  margin: auto !important;
+  margin-right: auto !important;
+  padding: 10px !important;
+  padding-top: 0px !important;
+  padding-bottom: 30px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#cartBody #cartBottom .cart-bottom-box .cart-bottom-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  max-width: 50%;
+  font-family: "Raleway";
+}
+
+#cartBody #cartBottom .cart-bottom-box .cart-bottom-side span {
+  font-family: "Merriweather";
+}
+
+#cartBody #cartBottom .cart-bottom-box .cart-bottom-side:last-child div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 360px;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#cartBody #cartBottom .cart-bottom-box .cart-bottom-side:last-child div button {
+  max-width: 100px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 15px;
+  padding: 10px !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#cartBody #cartBottom .cart-bottom-box .cart-bottom-side:last-child div button:hover {
+  background-color: #f33535;
+}
+
+#cartAdded {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  max-width: 300px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d72323;
+  color: white;
+  font-family: "Raleway";
+  font-size: 15px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.185);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.185);
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#searchBody #searchMain .search-field-box {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  width: 100%;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner {
+  width: 100%;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 3.5vw, 3.5rem);
+  text-align: center;
+  color: white;
+  padding-bottom: 50px !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder {
+  max-width: 1400px;
+  margin: auto !important;
+  width: 100%;
+  background-color: ghostwhite;
+  padding: 10px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder input {
+  width: 100%;
+  max-width: 91%;
+  background-color: ghostwhite;
+  font-family: "Raleway";
+  color: black;
+  padding: 15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder button {
+  background-color: #d72323;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 800;
+  margin: auto !important;
+  margin-right: 0 !important;
+  padding: 10px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder button:hover {
+  background-color: #f33535;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder {
+  position: relative;
+  max-width: 1400px;
+  margin: auto !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul {
+  position: absolute;
+  left: 0;
+  background-color: ghostwhite;
+  max-height: 150px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  top: 5px;
+  scrollbar-color: #d72323 #c2d2e4;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul::-webkit-scrollbar {
+  width: 15px;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 15px;
+  background-color: #d72323;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul li a {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px !important;
+  padding-left: 10px !important;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: black;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul li a:hover {
+  background-color: #d72323;
+  color: white;
+}
+
+#searchBody #searchBottomMain {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set {
+  width: 100%;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt {
+  max-width: 1400px;
+  margin: auto !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt h3 {
+  font-size: 35px;
+  font-family: "Raleway";
+  color: #303841;
+  padding-bottom: 20px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 17px;
+  max-width: 80%;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80%;
+  padding-top: 40px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div a {
+  max-width: 130px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 19px;
+  padding: 10px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div a:hover {
+  background-color: #f33535;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#fadedBottom {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, white));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 90%);
+  opacity: 0.9;
+  width: 100%;
+  height: 7em;
+}
+
+#backToTopBtn {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d72323;
+  z-index: 300;
+  color: white;
+  font-size: 24px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.253);
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.253);
+}
+
+#pageFade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+}
+/*# sourceMappingURL=components-dir.css.map */

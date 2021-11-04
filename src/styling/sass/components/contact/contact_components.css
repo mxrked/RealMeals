@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#contactBody #contactTopMain {
+  padding-bottom: 100px !important;
+}
+
+#contactBody #contactTopMain .contact-top-bg {
+  height: 340px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contactBody #contactSidesMain {
+  padding-bottom: 60px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box {
+  max-width: 1500px;
+  margin: auto !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side {
+  height: 960px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt {
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner {
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner h3 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 3vw, 3rem);
+  color: #d72323;
+  padding-bottom: 20px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder {
+  width: 100%;
+  max-width: 70%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item {
+  margin-left: 0 !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  display: block;
+  text-align: center;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item:last-child .teammate-img-holder .teammate-img {
+  background-position: top;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder:hover .teammate-socials-ol {
+  opacity: 1;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-img {
+  width: 240px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div {
+  display: block;
+  max-width: 30px;
+  white-space: pre-wrap;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div .fa-icon {
+  font-size: 25px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-img-holder .teammate-socials-ol div .fa-icon:hover {
+  opacity: 0.7;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner .teammates-holder .teammate-item .teammate-item-info h6 {
+  font-family: "Raleway";
+  font-size: 15px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form {
+  display: block;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder {
+  display: block;
+  width: 100%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child .contact-form-set {
+  margin-left: 50px !important;
+  width: 50%;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:first-child .contact-form-set:first-child {
+  margin-left: 0 !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder:nth-child(even) {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set {
+  display: block;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set h4 {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set input,
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set textarea {
+  font-family: "Merriweather";
+  background-color: ghostwhite;
+  width: 100%;
+  padding: 10px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-set-holder .contact-form-set textarea {
+  resize: none !important;
+  height: 200px;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding-top: 30px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button {
+  max-width: 110px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 19px;
+  padding: 10px !important;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button:hover {
+  background-color: #f33535;
+}
+
+#contactBody #contactSidesMain .contact-sides-main-box .contact-sides-main-row .contact-sides-main-side .contact-sides-main-side-cnt .contact-sides-main-side-cnt-inner form .contact-form-btns-holder button:first-child {
+  margin-right: 30px !important;
+}
+/*# sourceMappingURL=contact_components.css.map */

@@ -1,0 +1,24 @@
+<!-- 
+
+	This is the XML Sitemap for the ZooCasa website.
+	It will be similar for each website.
+
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.basicallyeasy.com/react-projects/</loc>
+  <lastmod>2021-09-19T18:40:32+00:00</lastmod>
+</url>
+
+
+
+</urlset>

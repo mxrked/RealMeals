@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Raleway:wght@800&display=swap");
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  margin-bottom: 0 !important;
+}
+
+body button,
+body input,
+body textarea {
+  border: none !important;
+  outline: none !important;
+}
+
+body button:focus,
+body input:focus,
+body textarea:focus {
+  outline: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+body .container,
+body .container-fluid,
+body .row,
+body .row > *,
+body .col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body ul {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body #mainBody {
+  position: relative;
+}
+
+body #mainBodyInner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .deactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body .page-transition {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .full-second {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#searchBody #searchMain .search-field-box {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  width: 100%;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner {
+  width: 100%;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner h2 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: clamp(3rem, 3.5vw, 3.5rem);
+  text-align: center;
+  color: white;
+  padding-bottom: 50px !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder {
+  max-width: 1400px;
+  margin: auto !important;
+  width: 100%;
+  background-color: ghostwhite;
+  padding: 10px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 5px;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder input {
+  width: 100%;
+  max-width: 91%;
+  background-color: ghostwhite;
+  font-family: "Raleway";
+  color: black;
+  padding: 15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder button {
+  background-color: #d72323;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 800;
+  margin: auto !important;
+  margin-right: 0 !important;
+  padding: 10px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner #searchBar .search-bar-holder button:hover {
+  background-color: #f33535;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder {
+  position: relative;
+  max-width: 1400px;
+  margin: auto !important;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul {
+  position: absolute;
+  left: 0;
+  background-color: ghostwhite;
+  max-height: 150px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  top: 5px;
+  scrollbar-color: #d72323 #c2d2e4;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul::-webkit-scrollbar {
+  width: 15px;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  width: 15px;
+  background-color: #d72323;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul li a {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px !important;
+  padding-left: 10px !important;
+  font-family: "Raleway";
+  font-weight: 800;
+  color: black;
+}
+
+#searchBody #searchMain .search-field-box .search-field-cnt .search-field-cnt-inner .search-links-holder ul li a:hover {
+  background-color: #d72323;
+  color: white;
+}
+
+#searchBody #searchBottomMain {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set {
+  width: 100%;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt {
+  max-width: 1400px;
+  margin: auto !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt h3 {
+  font-size: 35px;
+  font-family: "Raleway";
+  color: #303841;
+  padding-bottom: 20px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt p {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 17px;
+  max-width: 80%;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80%;
+  padding-top: 40px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div a {
+  max-width: 130px;
+  width: 100%;
+  background-color: #d72323;
+  color: white;
+  font-family: "Merriweather";
+  font-weight: 400;
+  display: block;
+  font-size: 19px;
+  padding: 10px !important;
+}
+
+#searchBody #searchBottomMain .search-bottom-set .search-bottom-set-cnt div a:hover {
+  background-color: #f33535;
+}
+/*# sourceMappingURL=search_components.css.map */

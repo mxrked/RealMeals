@@ -1,0 +1,455 @@
+@media all and (max-width: 1995px) {
+  #aboutBody #aboutTopMain .about-top-bg {
+    height: 280px;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 1000px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text {
+    max-width: 540px;
+  }
+  #aboutBody #aboutTopMain .about-top-text div p {
+    max-width: 700px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #aboutBody #aboutTopMain .about-top-bg {
+    height: 210px;
+  }
+  #aboutBody #aboutTopMain .about-top-text {
+    height: 100%;
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+  }
+  #aboutBody #aboutTopMain .about-top-text div h2 {
+    font-size: 25px;
+    padding-bottom: 0 !important;
+  }
+  #aboutBody #aboutTopMain .about-top-text div p {
+    font-size: 14px;
+    max-width: 500px;
+  }
+  #aboutBody #aboutSectsMain {
+    padding-bottom: 40px !important;
+  }
+  #aboutBody #aboutSectsMain #aboutSectM {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+    max-width: 100%;
+    width: 100%;
+    height: 400px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg {
+    height: 340px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody #aboutSectsMain #aboutSectM .about-sect-side-text {
+    text-align: center;
+    margin: auto !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text
+    h3 {
+    font-size: 25px;
+    padding-bottom: 0 !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text
+    p {
+    font-size: 14px;
+    max-width: 500px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text
+    a {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  #aboutBody #aboutTopMain .about-top-bg {
+    height: 110px;
+  }
+  #aboutBody #aboutTopMain .about-top-text div p {
+    max-width: 80%;
+    margin: auto !important;
+  }
+  #aboutBody #aboutSectsMain {
+    padding-bottom: 0px !important;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+    height: 340px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg {
+    height: 290px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-side-text
+    p {
+    max-width: 85%;
+    margin: auto !important;
+  }
+}
+
+/*! Pixel 2 XL */
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #aboutBody #aboutTopMain .about-top-text {
+    padding-bottom: 30px !important;
+  }
+  #aboutBody #aboutSectsMain {
+    padding-bottom: 65px !important;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 100%;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+    max-width: 50% !important;
+    width: 100%;
+    height: 340px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1) {
+    max-width: 30% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2) {
+    max-width: 70% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text {
+    max-width: 80% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg {
+    height: 290px;
+  }
+}
+
+/*! Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 80%;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+    max-width: 50% !important;
+    width: 100%;
+    height: 340px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1) {
+    max-width: 30% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2) {
+    max-width: 70% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text {
+    max-width: 80% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt {
+    display: block;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg {
+    width: 100%;
+    max-width: 95%;
+    height: 120px;
+    margin: auto !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg:nth-child(2n) {
+    margin-top: 10px !important;
+    margin-left: -10px !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutBody #aboutTopMain .about-top-text {
+    padding-bottom: 0px !important;
+  }
+  #aboutBody #aboutSectsMain {
+    padding-bottom: 40px !important;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 80%;
+  }
+  #aboutBody #aboutSectsMain .about-sect-box .about-sect-row .about-sect-side {
+    max-width: 50% !important;
+    width: 100%;
+    height: 340px;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1) {
+    max-width: 30% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1),
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2) {
+    max-width: 70% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectL
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectM
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(1)
+    .about-sect-side-cnt
+    .about-sect-side-text,
+  #aboutBody
+    #aboutSectsMain
+    #aboutSectR
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side:nth-child(2)
+    .about-sect-side-cnt
+    .about-sect-side-text {
+    max-width: 80% !important;
+  }
+  #aboutBody
+    #aboutSectsMain
+    .about-sect-box
+    .about-sect-row
+    .about-sect-side
+    .about-sect-side-cnt
+    .about-sect-bg {
+    width: 100%;
+    max-width: 45%;
+    height: 250px;
+    margin: auto !important;
+  }
+}
+
+/*! iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/*! Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  #aboutBody #aboutSectsMain .about-sect-box {
+    max-width: 73%;
+  }
+}
